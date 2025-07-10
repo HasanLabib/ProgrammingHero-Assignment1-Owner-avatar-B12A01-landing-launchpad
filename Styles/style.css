@@ -174,7 +174,10 @@ input::placeholder {
   font-family: "Inter", sans-serif;
   font-size: 20px;
 }
-
+textarea {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+}
 input[type="text"],
 input[type="email"],
 .form-get-in-touch textarea {
@@ -210,3 +213,55 @@ label[for="message"] {
 }
 
 /* Get in touch section End*/
+
+/* Footer Section */
+.footer-logo {
+  font-size: 100px;
+  font-weight: 900;
+  color: #4e47ff;
+}
+.footer-logo a {
+  text-decoration: none;
+  color: #4e47ff;
+}
+.footer-logo a:hover {
+  color: #3e39cbe3;
+}
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin-bottom: 103px;
+}
+
+.footer-section p {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  width: 531px;
+  margin-bottom: 20px;
+  color: #8987a1;
+}
+.footer-div {
+}
+.footer-div ul {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+}
+
+.footer-div ul a {
+  text-decoration: none;
+  color: #8987a1;
+  font-family: "Inter", sans-serif;
+}
+.footer-div ul a:hover {
+  text-decoration: underline;
+  color: #78bed18d;
+  font-family: "Inter", sans-serif;
+}
+/* Footer Section End */
