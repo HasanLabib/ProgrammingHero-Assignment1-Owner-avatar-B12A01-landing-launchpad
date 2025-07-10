@@ -20,6 +20,7 @@
 * {
   margin: 0;
   padding: 0;
+  /* background-color: #4d47ff07; */
 }
 /* Banner Section */
 .banner-container {
@@ -154,3 +155,58 @@
   color: rgba(0, 0, 0, 0.53);
 }
 /*  Productive User Section End */
+
+/* Get in touch section */
+.get-in-touch-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin: 116px 150px;
+  gap: 115px;
+}
+.form-get-in-touch {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+input::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+.form-get-in-touch textarea {
+  width: 497px;
+  min-height: 70px;
+  border-radius: 10px;
+  background-color: white;
+  display: block;
+  padding: 20px 32px;
+  margin-bottom: 19px;
+  border: 1px solid #d6dded;
+}
+label[for="email"],
+label[for="name"],
+label[for="message"] {
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+.form-get-in-touch textarea {
+  min-height: 135px;
+  /* text-align: center; */
+}
+.get-in-touch-title {
+  font-size: 97px;
+  font-weight: bold;
+}
+.get-in-touch-btn {
+  text-align: center;
+  max-width: 100%;
+  min-height: 62px;
+}
+
+/* Get in touch section End*/
