@@ -17,7 +17,6 @@
 .banner-container {
   background-image: url("../Assets/Hero-bg.png");
   background-size: cover;
-
   background-repeat: no-repeat;
 }
 .navbar {
@@ -49,6 +48,11 @@
   font-weight: 500;
   font-size: 16px;
   border: none;
+}
+.navbar-btn:hover {
+  background-color: #9442f9;
+  border: none;
+  color: rgb(251, 239, 218);
 }
 .banner-content {
   display: flex;
