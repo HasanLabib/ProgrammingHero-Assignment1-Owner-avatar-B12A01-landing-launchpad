@@ -47,6 +47,14 @@
   font-weight: 900;
   color: #4e47ff;
 }
+.logo a {
+  text-decoration: none;
+  color: #4e47ff;
+}
+.logo a:hover {
+  text-decoration: none;
+  color: #9442f9;
+}
 .navbar-btn {
   max-width: 132px;
   min-height: 48px;
@@ -291,6 +299,7 @@ label[for="message"] {
 /* Get in touch section End*/
 
 /* Footer Section */
+
 .footer-logo {
   font-size: 100px;
   font-weight: 900;
@@ -310,7 +319,9 @@ label[for="message"] {
   align-items: center;
   align-content: center;
   text-align: center;
-  margin-bottom: 103px;
+  background-color: white;
+  min-height: 428px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .footer-section p {
